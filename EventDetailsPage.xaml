@@ -1,0 +1,11 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RSVPNavigation_APP.EventDetailsPage">
+    <VerticalStackLayout Padding="20">
+        <Label Text="Event Details" FontSize="24" HorizontalOptions="Center" />
+        <Label Text="{Binding EventName}" FontSize="18" />
+        <Label Text="{Binding EventDate}" FontSize="18" />
+        <Label Text="{Binding EventDescription}" FontSize="18" />
+        <Button Text="Back" Clicked="OnBackClicked" />
+    </VerticalStackLayout>
+</ContentPage>
